@@ -26,9 +26,3 @@ This is a simple web-based SGPA (Semester Grade Point Average) and CGPA (Cumulat
 2. **CGPA Calculation:**
    - In the "CGPA Calculator" section, input your SGPA values for each semester, separated by commas.
    - Click on the "Calculate CGPA" button to get your overall CGPA.
-
-## Installation:
-1. Clone or download this repository to your local machine.
-2. Open the `index.html` file in your web browser to run the application.
-
-```bash
