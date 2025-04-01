@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA and CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SGPA and CGPA Calculator</h1>
+        <section id="sgpa-calculator">
+            <h2>Calculate SGPA</h2>
+            <div id="sgpa-inputs">
+                <label for="subjects">Number of Subjects:</label>
+                <input type="number" id="subjects" min="1" placeholder="Enter number of subjects" required>
+                <button onclick="createSubjectInputs()">Generate Inputs</button>
+            </div>
+            <div id="subject-fields"></div>
+            <button onclick="calculateSGPA()">Calculate SGPA</button>
+            <p id="sgpa-result"></p>
+        </section>
+        
+        <section id="cgpa-calculator">
+            <h2>Calculate CGPA</h2>
+            <label for="semesters">Enter SGPA for each semester (comma-separated):</label>
+            <input type="text" id="semesters" placeholder="E.g., 9.2, 8.5, 7.8" required>
+            <button onclick="calculateCGPA()">Calculate CGPA</button>
+            <p id="cgpa-result"></p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
